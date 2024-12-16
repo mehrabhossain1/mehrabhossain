@@ -1,4 +1,4 @@
-// import Grid from "@/components/Grid";
+import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import RecentProjects from "@/components/RecentProjects";
@@ -11,7 +11,7 @@ export default function Home() {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        {/* <Grid /> */}
+        <Grid />
         <RecentProjects />
         <Footer />
       </div>
